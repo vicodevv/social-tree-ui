@@ -1,0 +1,34 @@
+.signin{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .signin__left{
+        height: 100vh;
+        width: 50%;
+
+        .signin__left__form{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .signin__right{
+        height: 100vh;
+        width: 50%;
+        background-color: red;
+        background: url(../../../assets/social-banner.webp);
+        background-size: cover;
+    }
+}
