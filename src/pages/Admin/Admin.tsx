@@ -91,6 +91,7 @@ const Admin = () => {
                 </Formik>
             </div>
         </div>
+        <div className="admin__right"></div>
         </div>
         </>
     );
